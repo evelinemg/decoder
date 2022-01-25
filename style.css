@@ -5,14 +5,14 @@
 }
 
 body {
-  background: url(./imgamges/back.jpg) no-repeat center center fixed;
+  background: url(./imgages/back.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: lightgray;
+  /*background-color: lightgray;*/
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px;
+  /*box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px;*/
 }
 
 .main {
