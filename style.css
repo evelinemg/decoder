@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(/home/eveline/Downloads/challenge-oracle-decoder-ptbr-main/images/black-glitch-effect-digital-noise-texture-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border: 10px;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.btn {
+  border: 0;
+  color: white;
+  background-color: rgb(7,140,131);
+  padding: 10px;
+  border-radius: 5px;
+  padding: 10px;
+	margin: 20px 0px;
+  font-size: 20px;
+  width: 200px;
+  align-items: center;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+
+  height: 50px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encryption</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style media="screen">
+h1{
+  color: #ffffff; font-family: 'Helvetica Neue', sans-serif; font-size: 150px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; opacity: 0.9;;
+
+}
+label{
+  color: #ffffff; font-family: 'Helvetica Neue', sans-serif; font-size: 25px;  line-height: 2;
+}
+
+</style>
+<body>
+  <h1 class="titulo">encryption.</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form id="cript" action="">
+        <label for="input-texto">Mensagem:</label>
+        <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Insira o texto aqui" style="height: 300px"></textarea>
+        <div class="" style="text-align:center;">
+          <input class="btn" type="submit" value="Criptografar" id="btn-cripto">
+          <input class="btn" type="submit" value="Descriptografar" id="btn-descripto">
+        </div>
+
+      </form>
+    </section>
+
+    <section class="msg box">
+      <label for="cript2" >Mensagem criptografada:</label>
+      <textarea class="text-input" type="text" name="out-texto" id="msg" style="height: 300px"></textarea>
+      <div class="" style="text-align:center;">
+        <input class="btn" type="submit" value="Copiar" id="btn-copy">
+      </div>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
